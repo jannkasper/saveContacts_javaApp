@@ -1,0 +1,259 @@
+#root {
+    -fx-background-image: url("background.jpg");
+}
+
+.label {
+     -fx-font-size: 12px;
+     -fx-font-family: "Avenir LT Pro";
+     -fx-font-weight: bold;
+     -fx-text-fill: #333333;
+     -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+ }
+.label1 {
+    -fx-font-size: 24px;
+}
+.label2 {
+    -fx-font-size: 16px;
+}
+.label3 {
+    -fx-text-fill: black;
+    -fx-font-weight: normal;
+    -fx-font-size: 12px;
+}
+.label3:hover {
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+.check-box {
+    -fx-font-size: 12px;
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-text-size: inherit;
+    -fx-color: inherit;
+    -fx-background-color: none;
+    -fx-cursor: pointer;
+    -fx-padding: 5px 15px;
+    -fx-display: inline-block;
+    -fx-margin: 15px 30px;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+    -fx-outline: none;
+    -fx-position: relative;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-opacity: 1;
+    -fx-overflow: hidden;
+}
+.button:hover {
+
+    -fx-content: '';
+    -fx-position: absolute;
+    -fx-z-index: -1;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+    -fx-overflow: hidden;
+
+    -fx-opacity: 0.4;
+    -fx-background: #24b662;
+}
+
+#button2 {
+    -fx-padding: 3px 15px;
+    -fx-display: inline-block;
+    -fx-margin: 0px 0px
+}
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+
+    -fx-text-size: inherit;
+    -fx-color: #333333;;
+    -fx-background-color: none;
+    -fx-cursor: pointer;
+    /*-fx-padding: 5px 15px;*/
+    -fx-display: inline-block;
+    -fx-margin: 15px 30px;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+    -fx-outline: none;
+    -fx-position: relative;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-opacity: 1;
+    -fx-overflow: hidden;
+}
+.text-area {
+    -fx-font-size: 14px;
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+
+    -fx-text-size: inherit;
+    -fx-color: #333333;;
+    -fx-background-color: none;
+    -fx-cursor: pointer;
+    /*-fx-padding: 5px 15px;*/
+    -fx-display: inline-block;
+    -fx-margin: 15px 30px;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+    -fx-outline: none;
+    -fx-position: relative;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-opacity: 1;
+    -fx-overflow: hidden;
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.image {
+    -fx-font-size: 14px;
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+
+
+    -fx-text-size: inherit;
+    -fx-color: #333333;
+    -fx-background-color: none;
+    -fx-cursor: pointer;
+    -fx-padding: 5px 15px;
+    -fx-display: inline-block;
+    -fx-margin: 15px 30px;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+    -fx-outline: none;
+    -fx-position: relative;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-opacity: 1;
+    -fx-overflow: hidden;
+}
+
+.choice-box .arrow{
+    -fx-background-color: #333333;
+
+}
+
+#choice-box-popup-menu {
+
+}
+.choice-box .content {
+    -fx-background-color: black;
+}
+
+.choice-box{
+    -fx-background-color: transparent;
+    -fx-mark-color: orange;
+    -fx-text-size: inherit;
+    -fx-color: #333333;;
+    -fx-cursor: pointer;
+    -fx-padding: 5px 0px;
+    -fx-display: inline-block;
+    -fx-margin: 15px 30px;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+    -fx-outline: none;
+    -fx-position: relative;
+    -fx-webkit-transition: all 0.3s;
+    -fx-moz-transition: all 0.3s;
+    -fx-transition: all 0.3s;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-overflow: hidden;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #333333;
+}
+.table-view .column-header .label{
+    -fx-effect: none;
+    -fx-text-fill: #ff7b3d;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell {
+    -fx-cell-size: 35;
+    -fx-alignment: center-left;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+    -fx-font-family: "Avenir LT Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-view .table-row-cell {
+    -fx-background-color:  transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: #333333;
+    -fx-border-style: solid;
+    -fx-overflow: hidden;
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: whitesmoke;
+    -fx-text-background-color: #6622CC;
+
+}
+
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color: red;
+    -fx-background-color: transparent;
+    -fx-background-radius: 2em;
+}
+
+
+
+
+
